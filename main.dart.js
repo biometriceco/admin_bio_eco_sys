@@ -29791,7 +29791,7 @@ D_:function D_(a,b,c){this.b=a
 this.c=b
 this.a=c},
 ye(a,b){var s="assets/images/ic_user.svg",r=t.s
-return new A.q6(a,b,A.a([new A.pQ(A.a(["/dashboard"],r),"assets/images/ic_dashboard.svg","Dashboard"),new A.pQ(A.a(["/bio","/register_bio"],r),"assets/images/ic_face.svg","Sinh tr\u1eafc h\u1ecdc"),new A.pQ(A.a(["/device"],r),"assets/images/ic_devices.svg","Danh s\xe1ch thi\u1ebft b\u1ecb"),new A.pQ(A.a(["/history","/history_info"],r),s,"L\u1ecbch s\u1eed ki\u1ec3m tra"),new A.pQ(A.a(["/manager_device"],r),s,"Qu\u1ea3n l\xfd thi\u1ebft b\u1ecb")],t.JE),null)},
+return new A.q6(a,b,A.a([new A.pQ(A.a(["/dashboard"],r),"assets/images/ic_dashboard.svg","Dashboard"),new A.pQ(A.a(["/bio","/register_bio"],r),"assets/images/ic_face.svg","Biometric"),new A.pQ(A.a(["/device"],r),"assets/images/ic_devices.svg","Devices"),new A.pQ(A.a(["/history","/history_info"],r),s,"History"),new A.pQ(A.a(["/manager_device"],r),s,"Device Manager")],t.JE),null)},
 q6:function q6(a,b,c,d){var _=this
 _.c=a
 _.d=b
@@ -100557,7 +100557,7 @@ for(s=p.a.d,r=0;r<5;++r){q=s[r]
 l.push(A.aQ(A.a([new A.Dn(q.c,q.b,B.b.p(q.a,p.a.c),new A.aHj(p,q),o),B.aK],m),B.r,B.k,B.l))}l.push(B.oq)
 return A.fF(B.b4,A.a([A.ae(o,A.aU0(l),B.f,o,o,B.LU,n.a.b,B.rH,o,o),A.qh(0,new A.aH(B.mk,p.IF(),o),o,o,0,0,o,o)],m),B.U,B.bc,o)},
 IF(){var s=null
-return A.dC(!1,s,!0,A.ae(s,A.bk(A.a([A.Xn("assets/images/ic_setting.svg",s,24,24),A.bq(new A.aH(B.fA,A.J("\u0110\u0103ng xu\u1ea5t",s,s,s,$.aJ().am(B.i,14),s,s),s),1)],t.p),B.r,B.k,B.l),B.f,s,s,s,s,s,B.rK,s),s,!0,s,s,s,s,s,s,s,s,s,new A.aHi(this),s,s,s,s)}}
+return A.dC(!1,s,!0,A.ae(s,A.bk(A.a([A.Xn("assets/images/ic_setting.svg",s,24,24),A.bq(new A.aH(B.fA,A.J("Logout",s,s,s,$.aJ().am(B.i,14),s,s),s),1)],t.p),B.r,B.k,B.l),B.f,s,s,s,s,s,B.rK,s),s,!0,s,s,s,s,s,s,s,s,s,new A.aHi(this),s,s,s,s)}}
 A.aHj.prototype={
 $0(){var s=this.a.a
 s.toString
@@ -101335,7 +101335,7 @@ A.cr(a,!1).NK("/bio/1",s,s)}},
 $S:207}
 A.aFR.prototype={
 $2(a,b){var s,r=null,q="assets/images/ic_group.png",p=A.p2(),o=A.J("Register Biometrics",r,r,r,$.aJ().a_(28).a3(B.n),r,r),n=this.a,m=n.aoT(a),l=A.aW(a,r,t.l).w,k=b.e
-l=A.ae(r,A.aUn(q,q,k,new A.aFP(n),!0,"Enroll CheckIn","Enroll Door"),B.f,r,r,B.LW,r,r,B.rz,l.a.a)
+l=A.ae(r,A.aUn(q,q,k,new A.aFP(n),!0,"Enroll with BASE","Enroll normal"),B.f,r,r,B.LW,r,r,B.rz,l.a.a)
 if(k===0){k=n.apN()
 s=n.c
 s.toString
@@ -101650,7 +101650,7 @@ if(s.d){r=s.x
 s=s.r
 s=q.TO(0,r,s,1)}else s=B.av
 return A.ae(p,A.bk(A.a([o,n,s],t.p),B.r,B.k,B.aX),B.f,p,p,p,p,p,p,p)},
-TO(a,b,c,d){var s=null,r=A.dR(b,s,s,20,20),q=A.bB(s,s,6),p=this.a.e===d?A.J(c,s,s,s,$.aJ().am(B.P,14),s,s):A.J(c,s,s,s,$.b1().am(B.n,14),s,s),o=t.p
+TO(a,b,c,d){var s=null,r=A.dR(b,s,s,20,20),q=A.bB(s,s,6),p=this.a.e===d?A.J(c,s,s,s,$.aJ().am(B.P,12),s,s):A.J(c,s,s,s,$.b1().am(B.n,12),s,s),o=t.p
 p=A.bk(A.a([r,q,p],o),B.r,B.k,B.l)
 q=A.bB(s,10,s)
 return A.dC(!1,s,!0,A.aQ(A.a([A.ae(s,new A.Sb(A.aQ(A.a([p,q,A.nu(this.a.e===d?B.P:B.N,2)],o),B.v,B.k,B.l),s),B.f,s,s,s,s,s,s,s)],o),B.r,B.k,B.aX),s,!0,s,s,s,s,s,s,s,s,s,new A.aEN(this,d),s,s,s,s)}}
