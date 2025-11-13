@@ -118047,7 +118047,7 @@ gEF(){return"Please enter complete information"},
 ga3i(){return"Company device"},
 ga3l(){return"Department device"},
 ga7l(){return"Door name: "},
-gQa(){return"Liberty Branch"},
+gQa(){return"Sentrux Branch"},
 gQf(){return"Participation time"},
 gQb(){return"Data Enroll"},
 ga7g(){return"Group: "},
@@ -120568,8 +120568,8 @@ var $async$Jw=A.p(function(a,b){if(a===1)return A.q(b,r)
 while(true)switch(s){case 0:o=q.c
 o.toString
 p=A.bR(o,!1,t.c).c.a
-if((p==null?new A.hI(0,"",!1,0,"",-1,"",""):p).r==="liberty")q.r="77 Le Trung Nghia, Ward 12, Tan Binh District, Ho Chi Minh City"
-else q.r="KVBC, St. Keo Chanda, Chroy Changva, Phnom Penh, Cambodia"
+if((p==null?new A.hI(0,"",!1,0,"",-1,"",""):p).r==="liberty")q.r="Ho Chi Minh city, Viet Nam"
+else q.r="Ho Chi Minh city, Viet Nam"
 return A.r(null,r)}})
 return A.t($async$Jw,r)},
 L(a){return A.ix(null,null,new A.aVc(this),t.OJ,t._2)},
@@ -122378,7 +122378,7 @@ A.Mw.prototype={
 a9(){return new A.ahj()},
 Rl(){return this.f.$0()}}
 A.ahj.prototype={
-L(a){var s,r,q,p,o=this,n=null,m=A.an(a,n,t.l).w,l=t.p,k=A.a([new A.a3(B.l7,A.fT("assets/images/logo.png",n,68,185),n),B.P0,B.e9],l)
+L(a){var s,r,q,p,o=this,n=null,m=A.an(a,n,t.l).w,l=t.p,k=A.a([new A.a3(B.l7,A.fT("assets/images/logo.png",n,68,n),n),B.P0,B.e9],l)
 for(s=o.a.d,r=s.length,q=0;q<s.length;s.length===r||(0,A.G)(s),++q){p=s[q]
 k.push(A.aT(A.a([new A.Hv(p.c,p.b,B.b.v(p.a,o.a.c),new A.b03(o,p),n)],l),B.t,B.m,B.l))}k.push(B.P2)
 k.push(o.Le())
@@ -122419,7 +122419,7 @@ q=A.e6(B.af,k.gMb(),j)
 k.e!==$&&A.av()
 s=k.e=new A.bo(q,new A.bn(B.vW,B.h,r),r.h("bo<bg.T>"))}r=A.an(a,j,t.l).w
 q=t.p
-p=A.a([new A.a3(B.l7,A.fT("assets/images/logo.png",j,68,185),j),B.P0,B.e9],q)
+p=A.a([new A.a3(B.l7,A.fT("assets/images/logo.png",j,68,j),j),B.P0,B.e9],q)
 for(o=k.a.d,n=o.length,m=0;m<o.length;o.length===n||(0,A.G)(o),++m){l=o[m]
 p.push(A.aT(A.a([new A.Hv(l.c,l.b,B.b.v(l.a,k.a.c),new A.b01(k,l),j),B.cI],q),B.t,B.m,B.l))}p.push(B.P2)
 p.push(k.Le())
